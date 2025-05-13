@@ -35,4 +35,19 @@
     a = 1 b = a * 2
 ]]
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 -- TYPES AND VALUES
+
+-- Lua is a dynamically-typed language, meaning that the type of a variable is checked during run-time.
+
+-- On the other hand, statically-typed language like C, C++, Javaf, etc. check the type of a variable at compile-time instead of run-time.
+
+-- Lua is also a weakly-typed language, when it does not require the explicity specification of different types of objects and variables.
+
+-- On the other hand, a language is strongly typed if it demand the specification of data tytpes.
+
+-- There are 8 basic types in Lua:
+-- 1. nil: represents the absence of a value or a non-existent variable.
+-- 2. boolean: represents a truth value, either true or false.
+-- 3. number: represents a numeric value, which can be an integer or a floating-point number.
