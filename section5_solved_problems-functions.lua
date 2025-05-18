@@ -5,6 +5,8 @@ local function calculate_square_and_square_root(number)
     return square, square_root
 end
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 -- function to find the first less than or equal to a number
 local function is_prime(number)
     if number < 2 then return false end
@@ -28,6 +30,8 @@ local function find_largest_smaller_prime(number)
     return nil
 end
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 -- function to find the fit value of stamp
 local function find_stamps_value(number)
     local p = 0
@@ -42,6 +46,8 @@ local function find_stamps_value(number)
 
     return p, q
 end
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- funtion to find related sum of two half of a number
 local function find_related_sum(number)
@@ -63,6 +69,8 @@ local function find_related_sum(number)
 
     return first_half, second_half, (relate == 0 and "=" or (relate > 0 and ">" or "<"))
 end
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- function to calculate the equation
 local function calculate_equation(val, ...)
