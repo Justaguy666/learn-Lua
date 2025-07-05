@@ -3,7 +3,7 @@
 -- Depth-first search (DFS) is an algorithm for traversing or searching
 -- graph data structure.
 
--- The algorithm strats at the root node (selecting some arbitrary node
+-- The algorithm starts at the root node (selecting some arbitrary node
 -- as the root node in the case of a graph) and explores as far as possibble
 -- along each branch before backtracking.
 
@@ -210,19 +210,4 @@ local function is_bipartite(input)
     end
 
     return true
-end
-
-local graphs_input = {
-    "1 0",
-    "2 1  1 0",
-    "2 0",
-    "4 3 0 1 1 2 0 2",
-    "8 6 0 4 5 3 3 1 3 7 2 4 6 0",
-    "8 6 0 1 2 1 3 4 4 5 5 3 7 6",
-    "10 9 0 1 0 2 1 3 1 4 2 5 2 6 3 7 3 8 3 9"
-}
-
-
-for _,line in ipairs(graphs_input) do
-    print(is_bipartite(line))
 end
